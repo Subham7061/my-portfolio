@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/bd78591f8f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <!-- starting header -->
+    <header>
+        <nav>
+            <div class="left">
+                <img src="images/s.png">
+            </div>
+            <div class="right">
+                <ul>
+                    <li> <a href="/">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Skills</a></li>
+                    <li> <a href="#portfolio">Services</a></li>
+                    <li> <a href="#contact">Contact us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- end of header and starting of main section with section one -->
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hii My name is <span class="change">Subham yadav</span>
+                <div>and I am a Passionate</div>
+                <!-- <div>Web developer</div> -->
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="images/image3.png" alt=" ">
+            </div>
+        </section>
+        <hr>
+        <!-- ----------------about section start-------------------------------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/image1.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About me:</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum tenetur
+                            non quidem! Numquam esse tenetur labore, distinctio totam tempora sequi.
+                            Laudantium deleniti doloribus perspiciatis perferendis minima nesciunt odit, aut dolores?
+                        </p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links " onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        </div>
+                        <div class="tab-content active-tag" id="skills">
+                            <ul>
+                                <li><span>UI?UX</span><br>Web page designing</li>
+                                <li><span>Html</span><br>Web pages structure</li>
+                                <li><span>CSS</span><br>Web pages styling</li>
+                                <li><span>Javascript</span><br>web page user interactive</li>
+                                <li><span>C++</span><br>Android developement</li>
+                                <li><span>Java</span><br>Android developement</li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-content " id="education">
+                            <ul>
+                                <li><span>BCA(2021-2024)</span><br>University of lucknow<br>percentage-84%</li>
+                                <li><span>12th(2018-2020)</span><br>Karim city college jamshedpur<br>percentage-82%</li>
+                                <li><span>10th(2008-2018)</span><br>Daffodils english school
+                                    jamshedpur<br>percentage-91%</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content " id="experience">
+                            <ul>
+                                <li><span>Google as an intern(6 months)</span><br>I have been working as a
+                                    software<br>intern for 6 months</li>
+                                <li><span>Web mobril(2 years) </span><br>Working for the last 2 years<br>as a sotware
+                                    engineer</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------------services section start------------------------------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="service-list">
+                    <div>
+                        <i class="fa-sharp fa-solid fa-code"></i>
+                        <h2>Front-end developement</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Sequi exercitationem autem rerum enim. Ratione
+                            earum, quo voluptas quaerat amet fugiat! At eaque ducimus
+                            enim voluptates culpa eius quod ipsam doloribus?
+
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>Content writing</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Sequi exercitationem autem rerum enim. Ratione
+                            earum, quo voluptas quaerat amet fugiat! At eaque ducimus
+                            enim voluptates culpa eius quod ipsam doloribus?
+
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-figma"></i>
+                        <h2>App developement</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Sequi exercitationem autem rerum enim. Ratione
+                            earum, quo voluptas quaerat amet fugiat! At eaque ducimus
+                            enim voluptates culpa eius quod ipsam doloribus?
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- --------------portfolio section  start ------------------. -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/image3.png">
+                        <div class="explain">
+                            <h3>Music app</h3>
+                            <p>This app connect you to the world's largest music app</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/image3.png">
+                        <div class="explain">
+                            <h3>Chatting App</h3>
+                            <p>This app connect you to the world's largest music app</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/image3.png">
+                        <div class="explain">
+                            <h3>Game</h3>
+                            <p>This app connect you to the world's largest music app</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+        <!-- --------------------contact section start------------------------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-regular fa-envelope"></i>subhamyadav@gmail.com</p>
+                        <p><i class="fa-duotone fa-phone-rotary"></i>7061871438</p>
+                        <div class="social-icons">
+                            <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="#" class="btn-btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" class="name" placeholder="your name" required><br>
+                            <input type="email" class="email" placeholder="your email" required><br>
+                            <textarea row="6" class="message" placeholder="write message"></textarea>
+                            <input type="submit" class="btn-btn2">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                <p>Copyright @ Subham. Made with<i class="fa-regular fa-heart"></i> by subham pvt limited</p>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start anim ation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer', 'Freelencer', 'Web Designer'],
+            typeSpeed: 60,
+        });
+    </script>
+</body>
+
+</html>
